@@ -43,7 +43,7 @@ const updateService = async (req: Request, res: Response) => {
 
     // Update service attributes
     service.name = name;
-    service.type = type; // Assuming 'type' is a valid attribute in your Service model
+    service.type = type;
 
     await service.save();
 
