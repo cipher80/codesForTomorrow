@@ -4,7 +4,7 @@ import Category from './categoryModel';
 
 class Service extends Model {  public id!: number;
   public name!: string;
-  public type!: 'Normal' | 'VIP'; // Adjust type definition as per your requirements
+  public type!: 'Normal' | 'VIP'; 
   public categoryId!: number;}
 
 Service.init({
