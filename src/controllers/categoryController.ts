@@ -26,7 +26,7 @@ const updateCategory = async (req: Request, res: Response) => {
     return res.status(404).send('Category not found');
   }
 
-  await category.update({ name }); // Use Sequelize's update method to update attributes
+  await category.update({ name }); 
 
   res.json(category);
 };
